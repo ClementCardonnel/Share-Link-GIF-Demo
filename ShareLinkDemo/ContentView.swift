@@ -18,8 +18,8 @@ struct ContentView: View {
             
             // 🧑‍💻 Tip: you can switch transferable by commenting and uncommenting the following lines.
             // in my experience, this has no effect on the problem.
-//            let transferable = GIFDataRepresentation(data: data)
-            let transferable = GIFFileRepresentation(url: url)
+            let transferable = GIFDataRepresentation(data: data)
+//            let transferable = GIFFileRepresentation(url: url)
             
             // This ShareLink should be able to send the GIF
             ShareLink(item: transferable, preview: SharePreview(selectedGIFTitle))
